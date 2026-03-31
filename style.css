@@ -1,0 +1,51 @@
+h1{
+    color:red;
+    text-align: center;
+}
+
+h3{
+    color: red;
+}
+
+/*je crée la classe bleu qui mettra le texte en bleu */
+.bleu{
+    color: blue;
+}
+
+/*je crée la classe rose qui mettra le texte en rose */
+.rose{
+    color: red;
+}
+
+/* texte */
+h3{
+    font-size: 50px;
+}
+
+p{
+    font-size: 19px;
+    color:black;
+}
+
+/* fond coloré */
+
+.bg-red-vif{
+    background-color: #E51E35;
+;
+}
+
+.bg-rouge-pale{
+    background-color: #FFD7D7;
+}
+
+.blanc{
+    color: white;
+}
+
+li{
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: 600;
+}
