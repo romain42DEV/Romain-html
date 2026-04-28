@@ -1,9 +1,12 @@
-h1{
-    color:red;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h3{
+.rouge {
     color: red;
 }
 
@@ -17,14 +20,30 @@ h3{
     color: red;
 }
 
+
+.centrer {
+    text-align: center;
+}
+
 /* texte */
 h3{
     font-size: 50px;
 }
 
 p{
-    font-size: 19px;
-    color:black;
+    font-family: "Roboto", sans-serif;
+    font-size:  20px;
+    font-weight: 400;
+}
+
+
+/* container */
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* fond coloré */
@@ -38,6 +57,10 @@ p{
     background-color: #FFD7D7;
 }
 
+.noir {
+    color: black;
+}
+
 .blanc{
     color: white;
 }
@@ -48,4 +71,29 @@ li{
 
 .bold{
     font-weight: 600;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-left-100 {
+    margin-left: 100px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.padding-20 {
+    padding: 20px;
 }
