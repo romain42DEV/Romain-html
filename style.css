@@ -4,10 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
+
 .rouge {
-    color: red;
+    color: #E51E35;
 }
 
 /*je crée la classe bleu qui mettra le texte en bleu */
@@ -17,7 +19,7 @@
 
 /*je crée la classe rose qui mettra le texte en rose */
 .rose{
-    color: red;
+    color: pink;
 }
 
 
@@ -31,7 +33,6 @@ h3{
 }
 
 p{
-    font-family: "Roboto", sans-serif;
     font-size:  20px;
     font-weight: 400;
 }
@@ -66,11 +67,11 @@ p{
 }
 
 li{
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .bold{
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .margin-left-10 {
@@ -85,9 +86,17 @@ li{
     margin-top: 10px;
 }
 
+.margin-top-30 {
+    margin-top: 30px;
+}
+
 .flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .align-items-center {
@@ -96,4 +105,8 @@ li{
 
 .padding-20 {
     padding: 20px;
+}
+
+.border-radius-10 {
+    border-radius: 10px;
 }

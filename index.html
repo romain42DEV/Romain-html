@@ -10,7 +10,20 @@
     <!-- compatibilté sur tout les appareils (téléphone,tablette,montre)-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- nom de mon site, visible seulement sur l'onglet-->
-    <title>Document</title>
+    <title>fiche-présentation</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+
     <link rel="stylesheet" href="style.css">
 </head>
 <!-- le corps de ma page ce qui sera visible par le visiteur-->
@@ -29,13 +42,13 @@
 
             <!-- div de la biographie -->
             <div>
-                <h3 class="rose margin-top-10">Bio</h3>
+                <h3 class="rouge margin-top-10">Bio</h3>
                 <p class="margin-top-10">Je m'appelle romain, je voudrais faire développeur, j'ai quelques bases en Html/css et j'ai rejoint la
                 toile pour apprendre du javascript et découvrir les métiers de l'informatique.</p>
             </div>
 
             <!-- div des infos avec l'image + le paragraphe -->
-            <div>
+            <div class="margin-top-30">
 
                 <!-- div de l'age -->
                 <div class="flex align-items-center margin-top-10">
@@ -72,65 +85,75 @@
     </section>
 
     <!-- section des trucs qu'il aime -->
-    <section class="bg-rouge-pale">
-        <h3 class="rouge margin-top-10">Truc qu'il aime</h3>
+    <section class="bg-rouge-pale padding-20 margin-top-10">
+        <h3 class="rouge margin-top-10">Truc que j'aime</h3>
 
-        <div class="bg-red-vif">
-            <div>
-                <img src="asset/videoo.png" alt="video">
-                <p>“L'iformatique”</p>
+        <div class="bg-red-vif container-1000 margin-top-30 padding-20 border-radius-10">
+            <div class="flex align-items-center">
+                <i class="ph ph-video"></i>
+                <p class="margin-left-10">“L'informatique”</p>
             </div>
 
-            <div>
-                <img src="asset/mobile.png" alt="mobile">
-                <p>“Jouer à des jeux sur l'ordinateur“</p>
+            <div class="flex margin-top-10 align-items-center">
+                <i class="ph ph-device-mobile"></i>
+                <p class="margin-left-10">“Jouer à des jeux sur l'ordinateur“</p>
             </div>
 
-            <div>
-                <img src="asset/micro.png" alt="">
-                <p>“Regarder des films”</p>
+            <div class="flex margin-top-10 align-items-center">
+                <i class="ph ph-microphone"></i>
+                <p class="margin-left-10">“Regarder des films et des séries”</p>
             </div>
+
         </div>
 
-        <ul>
-            <li>Aller au cinéma</li>
-            <li>Aller à la piscine</li>
-            <li>manger</li>
-        </ul>
-
+        <div class="container-1000 margin-top-30">
+            <ul>
+                <li>Aller au cinéma</li>
+                <li>Aller à la piscine</li>
+                <li>manger</li>
+            </ul>
+        </div>
 
     </section>
 
-    <section class="bg-red-vif">
+    <section class="bg-red-vif margin-top-10 padding-20"> <!-- section parcours -->
 
         <h3 class="blanc">Parcours</h3>
 
-        <div class="bg-rouge-pale">
-            <p class="bold bleu">01</p>
-            <p class="bold bleu">Bac+2 en Assistance Domestique Connectée</p>
-            <p class="bleu">École des Objets Intelligents de Limoges</p>
-        </div>
+        <div class="container-1000 margin-top-30">
 
-        <div class="bg-rouge-pale">
-            <p class="bold bleu">02</p>
-            <p class="bold bleu">Licence Pro en CommNumérique pour Circuits Intégrés</p>
-            <p class="bleu">Université du Cloud</p>
-        </div>
+            <div class="flex align-items-center bg-rouge-pale padding-20 border-radius-10">
+                <p class="bold rouge">01</p>
 
-        <div class="bg-rouge-pale">
-            <p class="bold bleu">03</p>
-            <p class="bold bleu">Gérer ses émotions quand on est rebooté trop souvent</p>
-            <p class="bleu">Coursera for Bots</p>
-        </div>
+                <div class="margin-left-10">
+                    <p class="bold rouge">Bac+2 en Assistance Domestique Connectée</p>
+                    <p class="rouge">École des Objets Intelligents de Limoges</p>
+                </div>
+            </div>
 
-        <div>
+            <div class="flex align-items-center bg-rouge-pale margin-top-10 padding-20 border-radius-10">
+                <p class="bold rouge">02</p>
+
+                <div class="margin-left-10">
+                    <p class="bold rouge">Licence Pro en CommNumérique pour Circuits Intégrés</p>
+                    <p class="rouge">Université du Cloud</p>
+                </div>
+            </div>
+
+            <div class="flex align-items-center bg-rouge-pale margin-top-10 padding-20 border-radius-10">
+                <p class="bold rouge">03</p>
+
+                <div class="margin-left-10">
+                    <p class="bold rouge">Gérer ses émotions quand on est rebooté trop souvent</p>
+                    <p class="rouge">Coursera for Bots</p>
+                </div>
+            </div>
 
         </div>
      
-
     </section>
 
-    <section class="bg-red-vif">
+    <section class="bg-red-vif margin-top-10 padding-20">
         <h3 class="blanc">Truc que j'aime moins</h3>
     </section>
 
