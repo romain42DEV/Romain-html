@@ -58,6 +58,10 @@ p{
     background-color: #FFD7D7;
 }
 
+.bg-rose{
+    background-color: #FFE8E8;
+}
+
 .noir {
     color: black;
 }
@@ -99,14 +103,30 @@ li{
     justify-content: space-between;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 .align-items-center {
     align-items: center;
+}
+
+.padding-10 {
+    padding: 10px;
 }
 
 .padding-20 {
     padding: 20px;
 }
 
-.border-radius-10 {
-    border-radius: 10px;
+.border-radius-8 {
+    border-radius: 8px;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.font-size-50 {
+    font-size: 50px;
 }
